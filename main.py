@@ -18,10 +18,10 @@ PERSISTENT_FILE = 'battery_status.json'
 stop_flag = threading.Event()  # Create an Event object to signal threads to stop
 
 app = Flask(__name__)
-app.secret_key = '1234567890'
+app.secret_key = '0135000328'
 
 # Define team number default
-TEAM_NUMBER = "5987"
+TEAM_NUMBER = "0135"
 # Create a lock for thread safety
 battery_status_lock = threading.Lock()
 
